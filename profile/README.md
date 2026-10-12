@@ -2,7 +2,7 @@
 
 Teaching an SO-101 robot arm to pour liquid by asking "which attempt looked better?" instead of collecting more expert demonstrations. The RLHF recipe from [Christiano et al. 2017](https://arxiv.org/abs/1706.03741), applied to physical manipulation where every attempt costs real seconds on real hardware.
 
-This folder archives the January–September 2026 work: code, data pointers, the project presentation, and a full technical report.
+This folder archives the January–September 2026 work: code, data pointers, the project presentation, and a full technical report. Please our [WAT.ai Spring 2026 EOT Showcase presentation](https://github.com/Reinforcement-Learning-RLHF/.github/blob/main/profile/WAT.ai%20S26%20EOT%20Showcase.pdf).
 
 ## The idea
 
@@ -26,8 +26,6 @@ Reward-model training itself is scaffolded but not yet built. Next steps were: c
 ## Contents
 
 ```
-WAT.ai Preference Feedback for Robot Manipulation.pdf   16-slide project presentation
-PROJECT_REPORT_2026.md                                  full technical report, every number cited to a file
 robot-pref-learning-project-hub/   main repo: labelling (scripted/human/VLM), reward-model scaffold, Streamlit app
 so101-environment/                 MuJoCo SO-101 pouring sim, scripted demo collection, LeRobot Hub I/O
 so101-teleop-demo/                 hardware run-book (power, calibration, teleop command) + session notes
